@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roma Tarot Master</title>
+    <link rel="stylesheet" th:href="@{/css/homePage.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Roma Tarot Master</h1>
+        </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/tarot-reading">Tarot Reading</a></li>
+                <li><a href="/karma-healing">Karma Healing</a></li>
+                <li><a href="/angel-healing">Angel Healing</a></li>
+                <li><a href="/reiki-healing">Reiki Healing</a></li>
+                <li><a href="/akashic-reading">Akashic Reading</a></li>
+                <li><a href="/spells">Spells</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Roma Tarot Master</h2>
+            <p>Discover your path to spiritual awakening and healing</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <i class="fas fa-star"></i>
+                <h3>Tarot Reading</h3>
+                <p>Gain insights into your past, present, and future through the wisdom of tarot cards.</p>
+                <a href="/tarot-reading" class="service-btn">Learn More</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-balance-scale"></i>
+                <h3>Karma Healing</h3>
+                <p>Balance your karmic energy and resolve issues from past lives.</p>
+                <a href="/karma-healing" class="service-btn">Learn More</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-dove"></i>
+                <h3>Angel Healing</h3>
+                <p>Connect with angelic energies for guidance, healing, and protection.</p>
+                <a href="/angel-healing" class="service-btn">Learn More</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-hands"></i>
+                <h3>Reiki Healing</h3>
+                <p>Experience the power of energy healing to restore balance and harmony.</p>
+                <a href="/reiki-healing" class="service-btn">Learn More</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-book-open"></i>
+                <h3>Akashic Reading</h3>
+                <p>Access the Akashic Records to discover your soul's journey and purpose.</p>
+                <a href="/akashic-reading" class="service-btn">Learn More</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-magic"></i>
+                <h3>Spells</h3>
+                <p>Custom rituals and spells designed to manifest your intentions.</p>
+                <a href="/spells" class="service-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <h2>About Roma Tarot Master</h2>
+            <p>With over 20 years of experience in spiritual healing and divination, Roma Tarot Master offers authentic guidance to help you navigate life's challenges and discover your true potential.</p>
+            <p>Our approach combines ancient wisdom with modern techniques to provide personalized solutions for your spiritual, emotional, and physical well-being.</p>
+        </div>
+        <div class="about-image">
+            <img src="/images/tarot-master.jpg" alt="Roma Tarot Master" onerror="this.src='/images/placeholder.jpg'">
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"The tarot reading I received was incredibly accurate and helped me make an important life decision. Highly recommended!"</p>
+                <h4>Sarah K.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"After just one Reiki healing session, I felt a significant improvement in my energy levels and overall sense of well-being."</p>
+                <h4>Michael T.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The Akashic reading provided me with profound insights into my life purpose that I had never considered before."</p>
+                <h4>Jennifer L.</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Ready to Transform Your Life?</h2>
+            <p>Book a session today and begin your journey toward healing and self-discovery.</p>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Roma Tarot Master</h3>
+                <p>Your trusted guide on the path to spiritual awakening and healing.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/tarot-reading">Tarot Reading</a></li>
+                    <li><a href="/karma-healing">Karma Healing</a></li>
+                    <li><a href="/angel-healing">Angel Healing</a></li>
+                    <li><a href="/reiki-healing">Reiki Healing</a></li>
+                    <li><a href="/akashic-reading">Akashic Reading</a></li>
+                    <li><a href="/spells">Spells</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@romatarotmaster.com</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Roma Tarot Master. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script th:src="@{/js/homePage.js}"></script>
+</body>
+</html>
