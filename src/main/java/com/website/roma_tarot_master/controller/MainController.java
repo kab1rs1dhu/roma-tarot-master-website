@@ -33,7 +33,7 @@ public class MainController {
     
     @GetMapping("/akashic-reading")
     public String akashicReading() {
-        return "akashic-reading";
+        return "Pages/akashik-reading";
     }
     
     @GetMapping("/spells")

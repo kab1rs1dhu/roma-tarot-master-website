@@ -1,0 +1,422 @@
+/* Akashic Reading Page Specific Styles */
+
+.akashic-hero {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/akashik-background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    padding: 3rem 1rem;
+}
+
+.akashic-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.akashic-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.akashic-description {
+    margin-bottom: 2rem;
+}
+
+.akashic-description h2 {
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.akashic-description p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.akashic-benefits {
+    margin-bottom: 2rem;
+    border-left: 3px solid var(--accent-color);
+    padding-left: 1.5rem;
+}
+
+.akashic-benefits h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.akashic-benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.akashic-benefits li {
+    margin-bottom: 0.7rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.akashic-benefits li i {
+    color: var(--accent-color);
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+.akashic-cta {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.akashic-cta .btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+}
+
+/* Process section */
+.akashic-process {
+    padding: 5rem 1rem;
+    background-color: #f9f5ff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.akashic-process h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.akashic-process h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: var(--accent-color);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.process-steps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.step {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.step h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+/* Testimonials section */
+.akashic-testimonials {
+    padding: 5rem 1rem;
+    background-color: var(--white);
+}
+
+.akashic-testimonials h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.akashic-testimonials h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: var(--accent-color);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.testimonial {
+    background-color: #f9f5ff;
+    border-radius: 10px;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.quote {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.client h4 {
+    color: var(--primary-color);
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+/* Booking section */
+.akashic-booking {
+    padding: 5rem 1rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/akashic-booking-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--white);
+}
+
+.akashic-booking h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.booking-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.booking-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.booking-option {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 2rem;
+    color: var(--text-color);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.booking-option:hover {
+    transform: translateY(-10px);
+}
+
+.booking-option.featured {
+    border: 2px solid var(--accent-color);
+    transform: scale(1.05);
+}
+
+.booking-option.featured:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+.popular-tag {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    background-color: var(--accent-color);
+    color: var(--dark-color);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.booking-option h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.duration {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.duration i {
+    margin-right: 5px;
+}
+
+.features {
+    margin-bottom: 2rem;
+}
+
+.features li {
+    margin-bottom: 0.7rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.features li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.booking-btn {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.booking-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+/* FAQ Section */
+.akashic-faq {
+    padding: 5rem 1rem;
+    background-color: #f9f5ff;
+}
+
+.akashic-faq h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.akashic-faq h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: var(--accent-color);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.faq-item {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.faq-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.faq-item h3:before {
+    content: '?';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .process-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .testimonial-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .booking-options {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .booking-option.featured {
+        grid-column: span 2;
+    }
+    
+    .faq-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .akashic-content h1 {
+        font-size: 3rem;
+    }
+    
+    .akashic-description h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .process-steps {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .testimonial-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .booking-options {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .booking-option.featured {
+        grid-column: auto;
+    }
+    
+    .akashic-content {
+        padding: 3rem;
+    }
+}
