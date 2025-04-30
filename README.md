@@ -15,7 +15,7 @@ angel healing [ angels photo]
 
 reiki healing [ reiki symbols]
 
-akashik reading [ pic of stairs foing to clouds]
+akashik reading [ pic of stairs foing to clouds] -> done
 
 powerful manifesting tools [ see pic]
 

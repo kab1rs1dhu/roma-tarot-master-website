@@ -1,11 +1,70 @@
-/* Akashic Reading Page Specific Styles */
+/* Media Queries for responsive background image */
+@media (max-width: 767px) {
+    body::before {
+        background-size: 100%; /* Slightly larger on mobile */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body::before {
+        background-size: 85%; /* Medium size for tablets */
+    }
+}
+
+@media (min-width: 1200px) {
+    body::before {
+        background-size: 70%; /* More zoomed out for large screens */
+    }
+}/* Akashic Reading Page Specific Styles */
+
+/* Apply background to body for entire page */
+body {
+    position: relative;
+    /* This sets the color for the extra space around the image */
+    background-color: #000000; /* Pure black background */
+    color: var(--white);
+}
+
+/* Single background image, zoomed out to prevent pixelation */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* The gradient overlay can also be adjusted here */
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://t4.ftcdn.net/jpg/05/73/95/73/360_F_573957306_UqvnAjLeocb3jQVJASZIZ4giddN52SC1.jpg');
+    background-color: #000000; /* Black color behind the image */
+    background-size: 80%; /* Zoomed out to 80% to prevent pixelation */
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Single image only */
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Override header background to be transparent */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo h1 {
+    color: var(--accent-color);
+}
+
+.nav-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-menu a {
+    color: var(--white);
+}
 
 .akashic-hero {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/akashik-background.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 90vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +144,8 @@
 /* Process section */
 .akashic-process {
     padding: 5rem 1rem;
-    background-color: #f9f5ff;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
 }
 
 .container {
@@ -156,13 +216,14 @@
 /* Testimonials section */
 .akashic-testimonials {
     padding: 5rem 1rem;
-    background-color: var(--white);
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
 }
 
 .akashic-testimonials h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: var(--primary-color);
+    color: var(--white);
     position: relative;
 }
 
@@ -207,9 +268,8 @@
 /* Booking section */
 .akashic-booking {
     padding: 5rem 1rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/akashic-booking-bg.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
     color: var(--white);
 }
 
@@ -319,13 +379,14 @@
 /* FAQ Section */
 .akashic-faq {
     padding: 5rem 1rem;
-    background-color: #f9f5ff;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
 }
 
 .akashic-faq h2 {
     text-align: center;
     margin-bottom: 3rem;
-    color: var(--primary-color);
+    color: var(--white);
     position: relative;
 }
 
@@ -366,6 +427,53 @@
     left: 0;
     color: var(--accent-color);
     font-weight: bold;
+}
+
+/* Fix footer for fixed background */
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    z-index: 10;
+}
+
+/* Update step, faq item, and testimonial backgrounds for better contrast with fixed background */
+.step, .faq-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+}
+
+.akashic-process h2:after, 
+.akashic-testimonials h2:after, 
+.akashic-faq h2:after {
+    background-color: var(--accent-color);
+}
+
+.testimonial {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+}
+
+.process-steps .step h3, 
+.faq-item h3 {
+    color: var(--primary-color);
+}
+
+/* Mobile-specific adjustments for background */
+@media (max-width: 767px) {
+    body {
+        /* Adjust background for smaller screens */
+        background-size: 150% auto; /* Less zoomed out on mobile */
+        background-position: center center;
+    }
+    
+    /* Improve content readability on mobile */
+    .akashic-content {
+        padding: 1.5rem;
+    }
+    
+    .step, .testimonial, .faq-item, .booking-option {
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
 }
 
 /* Media Queries */

@@ -1,8 +1,8 @@
-FROM maven:3.9.5-openjdk-21 AS build
+FROM maven:3.9.5-eclipse-temurin-21 AS build
 COPY . .
 RUN mvn clean package -DskipTests
 
-FROM openjdk:21-jdk-slim
-COPY --from=build /target/roma-tarot-master-0.0.1-SNAPSHOT.jar roma-tarot-master.jar
+FROM eclipse-temurin:21-jdk-jammy
+COPY --from=build /target/roma-tarot-master-*.jar app.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","roma-tarot-master.jar"]
+ENTRYPOINT ["java", "-jar", "/app.jar"]
