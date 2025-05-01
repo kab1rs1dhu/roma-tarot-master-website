@@ -13,7 +13,7 @@ public class MainController {
     
     @GetMapping("/tarot-reading")
     public String tarotReading() {
-        return "tarot-reading";
+        return "Pages/tarot-reading";
     }
     
     @GetMapping("/karma-healing")
@@ -23,7 +23,7 @@ public class MainController {
     
     @GetMapping("/angel-healing")
     public String angelHealing() {
-        return "angel-healing";
+        return "Pages/angel-healing";
     }
     
     @GetMapping("/reiki-healing")

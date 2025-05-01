@@ -9,11 +9,11 @@ commitment reading
 current thoughts and feelings
 
 
-karma healing [ photo of spiritual, soul coming from bidy]
+karma healing [ photo of spiritual, soul coming from bidy] done
 
-angel healing [ angels photo]
+angel healing [ angels photo] done 
 
-reiki healing [ reiki symbols]
+reiki healing [ reiki symbols] done 
 
 akashik reading [ pic of stairs foing to clouds] -> done
 

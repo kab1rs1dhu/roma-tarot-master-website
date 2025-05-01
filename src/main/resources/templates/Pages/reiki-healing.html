@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reiki Healing - Roma Tarot Master</title>
+    <link rel="stylesheet" th:href="@{/css/homePage.css}">
+    <link rel="stylesheet" th:href="@{/css/reiki-healing.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Roma Tarot Master</h1>
+        </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/tarot-reading">Tarot Reading</a></li>
+                <li><a href="/karma-healing">Karma Healing</a></li>
+                <li><a href="/angel-healing">Angel Healing</a></li>
+                <li><a href="/reiki-healing" class="active">Reiki Healing</a></li>
+                <li><a href="/akashic-reading">Akashic Reading</a></li>
+                <li><a href="/spells">Spells</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="reiki-hero">
+        <div class="reiki-content">
+            <h1>Reiki Healing</h1>
+            <div class="reiki-description">
+                <h2>Restore Balance and Vitality Through Universal Energy</h2>
+                <p>Reiki is a Japanese energy healing technique that promotes relaxation, reduces stress and anxiety, and facilitates physical, emotional, and spiritual healing. The word "Reiki" combines two Japanese words: "Rei," meaning universal, and "Ki," meaning life energy.</p>
+                <p>As a certified Reiki Master, I channel this universal life energy through my hands to your body's energy centers (chakras) and systems. This gentle yet powerful energy flows where it's most needed, clearing blockages, balancing your chakras, and activating your body's natural healing abilities.</p>
+                <p>Whether you're seeking relief from physical pain, emotional distress, spiritual disconnection, or simply want to experience deep relaxation and renewal, Reiki offers a holistic approach to wellness that addresses the root causes of imbalance rather than just the symptoms.</p>
+            </div>
+            <div class="reiki-benefits">
+                <h3>Benefits of Reiki Healing</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Reduces stress, anxiety, and depression</li>
+                    <li><i class="fas fa-check-circle"></i> Relieves physical pain and accelerates healing</li>
+                    <li><i class="fas fa-check-circle"></i> Clears energy blockages and balances chakras</li>
+                    <li><i class="fas fa-check-circle"></i> Promotes deeper sleep and relaxation</li>
+                    <li><i class="fas fa-check-circle"></i> Supports the immune system and detoxification</li>
+                    <li><i class="fas fa-check-circle"></i> Enhances intuition and spiritual connection</li>
+                </ul>
+            </div>
+            <div class="reiki-cta">
+                <a href="#services" class="btn">Explore Reiki Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="reiki-services" id="services">
+        <div class="container">
+            <h2>Reiki Healing Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Individual Reiki Session</h3>
+                    <p>A personalized, one-on-one Reiki session focused on your specific needs and concerns. Includes pre-session consultation, full-body energy treatment, and post-session guidance.</p>
+                    <a href="#booking" class="service-btn">Book This Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Chakra Balancing</h3>
+                    <p>Specialized Reiki treatment focusing on aligning and balancing your seven main chakras, promoting harmony between your physical, emotional, and spiritual aspects.</p>
+                    <a href="#booking" class="service-btn">Book This Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Emotional Healing</h3>
+                    <p>Focused Reiki session addressing emotional trauma, stress, anxiety, or grief. This gentle approach helps release trapped emotions and restore inner peace.</p>
+                    <a href="#booking" class="service-btn">Book This Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Distance Reiki</h3>
+                    <p>Experience the benefits of Reiki from anywhere in the world. Distance healing is equally effective as in-person sessions, as energy transcends physical limitations of space.</p>
+                    <a href="#booking" class="service-btn">Book This Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Space Clearing</h3>
+                    <p>Reiki energy work for homes, offices, or personal spaces to remove negative energy, create harmony, and establish a high-vibrational environment.</p>
+                    <a href="#booking" class="service-btn">Book This Service</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Reiki Training</h3>
+                    <p>Learn to practice Reiki for yourself and others. Offering all levels of Reiki certification, from Level 1 for beginners to Master level for those wishing to teach.</p>
+                    <a href="#booking" class="service-btn">Book This Service</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reiki-process">
+        <div class="container">
+            <h2>What to Expect During a Reiki Session</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Consultation</h3>
+                    <p>We begin with a brief discussion about your health history, current concerns, and what you hope to achieve through Reiki. This helps me tailor the session to your specific needs.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Preparation</h3>
+                    <p>You'll lie fully clothed on a comfortable treatment table. Soft music, gentle lighting, and sometimes essential oils create a relaxing atmosphere for your session.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Treatment</h3>
+                    <p>I'll place my hands lightly on or just above different areas of your body, following a sequence that covers the main energy centers. Each position is held for 3-5 minutes while Reiki energy flows.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Experience</h3>
+                    <p>During treatment, you may feel sensations like warmth, tingling, pulsing, or a gentle flow of energy. Many people experience deep relaxation, and some drift into a meditation-like state.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Integration</h3>
+                    <p>After the session, we'll discuss your experience and any insights that arose. I'll provide recommendations for self-care to help maintain and enhance the benefits of your treatment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reiki-principles">
+        <div class="container">
+            <h2>The Five Reiki Principles</h2>
+            <p class="principles-intro">Reiki practice is guided by these five principles, originally formulated by Mikao Usui, the founder of Reiki. These principles promote healing not just during sessions, but as a way of life:</p>
+            <div class="principles-grid">
+                <div class="principle">
+                    <div class="principle-number">1</div>
+                    <h3>Just for today, I will not worry</h3>
+                    <p>Worry is the projection of fear into the future. This principle encourages living in the present moment and trusting in the natural flow of life.</p>
+                </div>
+                <div class="principle">
+                    <div class="principle-number">2</div>
+                    <h3>Just for today, I will not be angry</h3>
+                    <p>Anger disrupts our energy flow and harms our well-being. This principle promotes peace, forgiveness, and understanding toward ourselves and others.</p>
+                </div>
+                <div class="principle">
+                    <div class="principle-number">3</div>
+                    <h3>Just for today, I will be grateful</h3>
+                    <p>Gratitude raises our energetic vibration and opens us to receive more blessings. This principle reminds us to appreciate the gifts in our lives, both large and small.</p>
+                </div>
+                <div class="principle">
+                    <div class="principle-number">4</div>
+                    <h3>Just for today, I will do my work honestly</h3>
+                    <p>Honesty in our endeavors aligns us with our integrity and purpose. This principle encourages authentic living and earnest effort in all we do.</p>
+                </div>
+                <div class="principle">
+                    <div class="principle-number">5</div>
+                    <h3>Just for today, I will be kind to every living thing</h3>
+                    <p>Kindness creates harmony and healing ripples throughout the world. This principle reminds us of our connection to all life and our responsibility to care for one another.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reiki-testimonials">
+        <div class="container">
+            <h2>Client Experiences</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>After struggling with chronic back pain for years, I tried Reiki as a last resort. After just three sessions, I experienced more relief than months of physical therapy had provided. The pain reduction was remarkable, but the emotional release and peace I felt were equally valuable.</p>
+                    <div class="client">
+                        <h4>Thomas W.</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>I was skeptical about energy healing but decided to try Reiki during a particularly stressful period in my life. The deep relaxation I experienced was unlike anything I'd felt before. My anxiety has decreased significantly, and I now have tools to manage stress more effectively.</p>
+                    <div class="client">
+                        <h4>Priya K.</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>The Reiki training I received has transformed not just my personal well-being but my entire approach to life. Learning to channel this healing energy has been a profound spiritual journey. I'm now able to help both myself and my family through difficult times using these techniques.</p>
+                    <div class="client">
+                        <h4>Marianne L.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reiki-booking" id="booking">
+        <div class="container">
+            <h2>Book Your Reiki Session</h2>
+            <p class="booking-intro">Ready to experience the healing power of Reiki? Choose from the options below to begin your journey toward balance and renewal.</p>
+            
+            <div class="booking-options">
+                <div class="booking-option">
+                    <h3>Introductory Reiki Session</h3>
+                    <p class="duration"><i class="far fa-clock"></i> 60 minutes</p>
+                    <ul class="features">
+                        <li>Initial consultation (15 min)</li>
+                        <li>Full Reiki treatment (35 min)</li>
+                        <li>Post-session discussion (10 min)</li>
+                        <li>Chakra assessment</li>
+                        <li>Personalized home care suggestions</li>
+                        <li>Perfect for first-time Reiki clients</li>
+                    </ul>
+                    <a href="#" class="btn booking-btn">Book Now</a>
+                </div>
+                <div class="booking-option featured">
+                    <div class="popular-tag">Most Popular</div>
+                    <h3>Complete Reiki Healing</h3>
+                    <p class="duration"><i class="far fa-clock"></i> 90 minutes</p>
+                    <ul class="features">
+                        <li>Extended consultation (15 min)</li>
+                        <li>Comprehensive treatment (60 min)</li>
+                        <li>Detailed chakra balancing</li>
+                        <li>Integration discussion (15 min)</li>
+                        <li>Customized healing plan</li>
+                        <li>Take-home meditation recording</li>
+                        <li>Email follow-up support</li>
+                    </ul>
+                    <a href="#" class="btn booking-btn">Book Now</a>
+                </div>
+                <div class="booking-option">
+                    <h3>Reiki Package</h3>
+                    <p class="duration"><i class="far fa-clock"></i> 3 sessions × 60 minutes</p>
+                    <ul class="features">
+                        <li>Three full Reiki sessions</li>
+                        <li>Progressive healing approach</li>
+                        <li>Tracking of progress and changes</li>
+                        <li>Adjustments based on your response</li>
+                        <li>Deeper, more lasting results</li>
+                        <li>15% savings compared to individual sessions</li>
+                    </ul>
+                    <a href="#" class="btn booking-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reiki-faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Is Reiki religious?</h3>
+                    <p>No, Reiki is not affiliated with any religion or specific belief system. It's a spiritual practice that acknowledges the existence of universal life energy, but it's compatible with all religious backgrounds or with no religious affiliation at all.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need to believe in Reiki for it to work?</h3>
+                    <p>Reiki works whether you believe in it or not, similar to how gravity works regardless of your beliefs about it. However, having an open mind may help you notice and integrate the subtle shifts that occur during and after treatment.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What should I wear for a Reiki session?</h3>
+                    <p>Wear comfortable, loose-fitting clothing. You'll remain fully clothed during the session. It's best to avoid heavy jewelry or restrictive items that might be uncomfortable while lying down for an extended period.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How many sessions will I need?</h3>
+                    <p>This varies by individual and condition. Some people experience significant relief after just one session, while chronic conditions may benefit from a series of 3-6 sessions. After your first session, we can discuss a recommended treatment plan based on your specific needs and response.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is Reiki safe for everyone?</h3>
+                    <p>Reiki is generally safe for everyone, including children, pregnant women, the elderly, and those with medical conditions. It's gentle and non-invasive. However, Reiki is complementary to, not a replacement for, conventional medical care. Always consult your healthcare provider for medical concerns.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How does distance Reiki work?</h3>
+                    <p>Distance Reiki works on the principle that energy is not bound by physical limitations of time and space. Using specific symbols and techniques, a Reiki practitioner can direct healing energy to anyone, anywhere. Many clients report that distance sessions are just as powerful as in-person treatments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Roma Tarot Master</h3>
+                <p>Your trusted guide on the path to spiritual awakening and healing.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/tarot-reading">Tarot Reading</a></li>
+                    <li><a href="/karma-healing">Karma Healing</a></li>
+                    <li><a href="/angel-healing">Angel Healing</a></li>
+                    <li><a href="/reiki-healing">Reiki Healing</a></li>
+                    <li><a href="/akashic-reading">Akashic Reading</a></li>
+                    <li><a href="/spells">Spells</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@romatarotmaster.com</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Roma Tarot Master. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script th:src="@{/js/homePage.js}"></script>
+</body>
+</html>

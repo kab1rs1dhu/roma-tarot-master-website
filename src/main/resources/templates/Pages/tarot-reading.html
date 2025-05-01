@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Reading - Roma Tarot Master</title>
+    <link rel="stylesheet" th:href="@{/css/homePage.css}">
+    <link rel="stylesheet" th:href="@{/css/tarot-reading.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Roma Tarot Master</h1>
+        </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/tarot-reading" class="active">Tarot Reading</a></li>
+                <li><a href="/karma-healing">Karma Healing</a></li>
+                <li><a href="/angel-healing">Angel Healing</a></li>
+                <li><a href="/reiki-healing">Reiki Healing</a></li>
+                <li><a href="/akashic-reading">Akashic Reading</a></li>
+                <li><a href="/spells">Spells</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="tarot-hero">
+        <div class="tarot-content">
+            <h1>Tarot Reading</h1>
+            <div class="tarot-description">
+                <h2>Illuminate Your Path Through Ancient Wisdom</h2>
+                <p>Tarot cards serve as mirrors to our subconscious mind, revealing hidden truths, potential outcomes, and guidance for your life's journey. With a history spanning centuries, these powerful archetypal images create a bridge between your conscious and unconscious awareness.</p>
+                <p>Each tarot reading is a sacred conversation between you, the cards, and the universe. As an experienced tarot reader with over two decades of practice, I serve as an interpreter for the symbols and energies that emerge in your reading, offering clarity and insight into your most pressing questions.</p>
+                <p>Whether you're seeking guidance about relationships, career decisions, spiritual growth, or simply wish to explore what lies ahead, a personalized tarot reading can illuminate your path forward with wisdom and compassion.</p>
+            </div>
+            <div class="tarot-benefits">
+                <h3>Benefits of Tarot Readings</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Gain clarity on complex life situations</li>
+                    <li><i class="fas fa-check-circle"></i> Reveal hidden influences affecting your circumstances</li>
+                    <li><i class="fas fa-check-circle"></i> Explore potential outcomes of different choices</li>
+                    <li><i class="fas fa-check-circle"></i> Connect with your higher self and intuition</li>
+                    <li><i class="fas fa-check-circle"></i> Receive validation and confirmation for your inner knowing</li>
+                    <li><i class="fas fa-check-circle"></i> Discover empowering perspectives on challenges</li>
+                </ul>
+            </div>
+            <div class="tarot-cta">
+                <a href="#reading-types" class="btn">Explore Reading Options</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="reading-types" id="reading-types">
+        <div class="container">
+            <h2>Tarot Reading Options</h2>
+            <div class="reading-grid">
+                <div class="reading-card">
+                    <div class="reading-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Love & Relationships</h3>
+                    <p>Explore the dynamics of your relationships, potential new connections, or gain insight into your current partnership. This reading illuminates patterns, challenges, and opportunities for growth in your love life.</p>
+                    <a href="#booking" class="reading-btn">Book This Reading</a>
+                </div>
+                <div class="reading-card">
+                    <div class="reading-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Career & Finance</h3>
+                    <p>Navigate important career decisions, potential opportunities, or financial matters with clarity. This reading provides guidance on professional development, financial planning, and manifesting abundance.</p>
+                    <a href="#booking" class="reading-btn">Book This Reading</a>
+                </div>
+                <div class="reading-card">
+                    <div class="reading-icon">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <h3>Life Path & Purpose</h3>
+                    <p>Discover insights about your soul's journey, life purpose, and spiritual direction. This reading helps align your choices with your authentic self and highest potential.</p>
+                    <a href="#booking" class="reading-btn">Book This Reading</a>
+                </div>
+                <div class="reading-card">
+                    <div class="reading-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Year Ahead</h3>
+                    <p>Get a comprehensive overview of the coming 12 months with month-by-month insights. This reading reveals key themes, challenges, and opportunities to help you navigate the year with awareness.</p>
+                    <a href="#booking" class="reading-btn">Book This Reading</a>
+                </div>
+                <div class="reading-card">
+                    <div class="reading-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>Specific Question</h3>
+                    <p>Seeking answers to specific questions? This focused reading provides clear insights and guidance on particular situations or decisions you're currently facing.</p>
+                    <a href="#booking" class="reading-btn">Book This Reading</a>
+                </div>
+                <div class="reading-card">
+                    <div class="reading-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Group & Event Readings</h3>
+                    <p>Perfect for parties, gatherings, or special events. I can provide individual mini-readings for each guest or interactive group readings that engage everyone together.</p>
+                    <a href="#booking" class="reading-btn">Book This Reading</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tarot-process">
+        <div class="container">
+            <h2>My Reading Approach</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Setting Intention</h3>
+                    <p>We begin by creating a sacred space and setting a clear intention for the reading. This focuses the energy and ensures the messages received are aligned with your highest good.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Card Selection</h3>
+                    <p>Using your energy and the question at hand, I'll guide you through selecting cards or select them on your behalf. Each card position has specific meaning related to your inquiry.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Interpretation</h3>
+                    <p>I'll interpret the cards' symbolism, position, and relationship to each other, revealing insights about your situation. This combines traditional tarot wisdom with intuitive messages.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Reflection & Discussion</h3>
+                    <p>We'll discuss how the reading applies to your specific situation, exploring possible meanings and applications. This is an interactive process where your input enhances the reading's depth.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Practical Guidance</h3>
+                    <p>Every reading concludes with practical insights and action steps you can take based on the wisdom revealed. This transforms divination into meaningful change in your life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tarot-deck">
+        <div class="container">
+            <h2>The Tarot Decks I Use</h2>
+            <p class="deck-intro">I work with several carefully selected decks, each with its own unique energy and symbolism. During your reading, I'll either choose the deck that resonates most with your question, or you can select one that calls to you.</p>
+            <div class="deck-grid">
+                <div class="deck">
+                    <h3>Rider-Waite-Smith</h3>
+                    <p>The classic tarot deck with rich symbolism and detailed imagery. Perfect for all types of readings and questions.</p>
+                </div>
+                <div class="deck">
+                    <h3>Thoth Tarot</h3>
+                    <p>Created by Aleister Crowley, this powerful deck offers deep esoteric insights and is excellent for spiritual and transformational readings.</p>
+                </div>
+                <div class="deck">
+                    <h3>Ethereal Visions Illuminated Tarot</h3>
+                    <p>A beautiful Art Nouveau-inspired deck that brings a gentle, dreamy energy to readings about creativity and emotional matters.</p>
+                </div>
+                <div class="deck">
+                    <h3>Wild Unknown Tarot</h3>
+                    <p>With striking black and white imagery and pops of color, this modern deck excels at revealing shadow work and personal growth opportunities.</p>
+                </div>
+                <div class="deck">
+                    <h3>Linestrider Tarot</h3>
+                    <p>Blending human, animal, and natural world imagery, this deck bridges the mundane and magical realms for balanced insights.</p>
+                </div>
+                <div class="deck">
+                    <h3>Your Personal Deck</h3>
+                    <p>You're welcome to bring your own deck if you have one you connect with. I'm happy to read with your cards for an even more personalized experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tarot-testimonials">
+        <div class="container">
+            <h2>Client Experiences</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>I've had many tarot readings before, but none as insightful and accurate as this one. The reader not only interpreted the cards with incredible depth but connected them to my situation in ways that gave me exactly the clarity I needed.</p>
+                    <div class="client">
+                        <h4>Alexa M.</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>I was skeptical at first, but decided to try a reading during a difficult career transition. The guidance I received was so specific and helpful that I've now had three readings, each one proving remarkably accurate as events unfolded.</p>
+                    <div class="client">
+                        <h4>James R.</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>The year ahead reading I received helped me navigate what ended up being one of the most transformative years of my life. Having that roadmap made all the difference in how I approached the challenges and opportunities that arose.</p>
+                    <div class="client">
+                        <h4>Sofia C.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tarot-booking" id="booking">
+        <div class="container">
+            <h2>Book Your Tarot Reading</h2>
+            <p class="booking-intro">Ready to illuminate your path? Choose from the options below and begin your journey of discovery and insight.</p>
+            
+            <div class="booking-options">
+                <div class="booking-option">
+                    <h3>Single Question Reading</h3>
+                    <p class="duration"><i class="far fa-clock"></i> 30 minutes</p>
+                    <ul class="features">
+                        <li>Focused on one specific question</li>
+                        <li>Detailed card interpretation</li>
+                        <li>Practical guidance for next steps</li>
+                        <li>Email summary of key insights</li>
+                        <li>Follow-up question within 48 hours</li>
+                    </ul>
+                    <a href="#" class="btn booking-btn">Book Now</a>
+                </div>
+                <div class="booking-option featured">
+                    <div class="popular-tag">Most Popular</div>
+                    <h3>Full Life Insight Reading</h3>
+                    <p class="duration"><i class="far fa-clock"></i> 60 minutes</p>
+                    <ul class="features">
+                        <li>Comprehensive reading covering multiple areas</li>
+                        <li>Past, present, and future insights</li>
+                        <li>Detailed card interpretation</li>
+                        <li>Exploration of hidden influences</li>
+                        <li>Personalized action plan</li>
+                        <li>Audio recording of session</li>
+                        <li>Email summary of key insights</li>
+                    </ul>
+                    <a href="#" class="btn booking-btn">Book Now</a>
+                </div>
+                <div class="booking-option">
+                    <h3>Year Ahead Reading</h3>
+                    <p class="duration"><i class="far fa-clock"></i> 90 minutes</p>
+                    <ul class="features">
+                        <li>Month-by-month forecast</li>
+                        <li>Key themes and challenges</li>
+                        <li>Strategic guidance for the year</li>
+                        <li>Seasonal energy shifts</li>
+                        <li>Audio recording of session</li>
+                        <li>Written summary of monthly insights</li>
+                        <li>One follow-up reading (30 min) within 6 months</li>
+                    </ul>
+                    <a href="#" class="btn booking-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tarot-faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Do I need to have a specific question for a reading?</h3>
+                    <p>While specific questions can help focus a reading, they're not required. General readings about your current life path or energy can be just as insightful. If you're unsure, we can work together to clarify what information would be most helpful for you.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How accurate are tarot readings?</h3>
+                    <p>Tarot readings offer insights into current energies, potential outcomes, and hidden influences. They're most accurate when viewed as guidance rather than fixed predictions. Remember that you have free will to shape your future, and the cards illuminate possibilities rather than certainties.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How should I prepare for my reading?</h3>
+                    <p>Take some time for quiet reflection before your session. Consider what you most want clarity about. Come with an open mind and heart. For remote readings, find a private, comfortable space where you won't be interrupted. Avoid alcohol or substances before your reading.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What if I get "negative" cards?</h3>
+                    <p>There are no inherently "bad" cards in the tarot. Each card offers valuable lessons and insights. Cards that appear challenging often represent important growth opportunities or necessary awareness. I focus on empowering interpretations that help you navigate all life situations with wisdom.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How often should I get a tarot reading?</h3>
+                    <p>This varies by individual and situation. For ongoing guidance, once every 3-6 months provides a good balance. For specific situations, a reading at the beginning and perhaps a follow-up can be helpful. I discourage becoming dependent on readings for daily decisions.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer remote/online readings?</h3>
+                    <p>Yes, I provide readings via video call (Zoom, FaceTime, etc.) or phone. Remote readings can be just as powerful as in-person sessions. For video calls, I position the camera so you can see the cards as they're drawn and interpreted.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Roma Tarot Master</h3>
+                <p>Your trusted guide on the path to spiritual awakening and healing.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/tarot-reading">Tarot Reading</a></li>
+                    <li><a href="/karma-healing">Karma Healing</a></li>
+                    <li><a href="/angel-healing">Angel Healing</a></li>
+                    <li><a href="/reiki-healing">Reiki Healing</a></li>
+                    <li><a href="/akashic-reading">Akashic Reading</a></li>
+                    <li><a href="/spells">Spells</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@romatarotmaster.com</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Roma Tarot Master. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script th:src="@{/js/homePage.js}"></script>
+</body>
+</html>
