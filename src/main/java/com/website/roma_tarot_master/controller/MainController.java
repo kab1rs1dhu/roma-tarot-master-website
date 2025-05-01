@@ -18,7 +18,7 @@ public class MainController {
     
     @GetMapping("/karma-healing")
     public String karmaHealing() {
-        return "karma-healing";
+        return "Pages/karma-healing";
     }
     
     @GetMapping("/angel-healing")
