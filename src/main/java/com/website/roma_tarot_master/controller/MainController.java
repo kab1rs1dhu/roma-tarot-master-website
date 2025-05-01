@@ -28,7 +28,7 @@ public class MainController {
     
     @GetMapping("/reiki-healing")
     public String reikiHealing() {
-        return "reiki-healing";
+        return "Pages/reiki-healing";
     }
     
     @GetMapping("/akashic-reading")
@@ -38,6 +38,6 @@ public class MainController {
     
     @GetMapping("/spells")
     public String spells() {
-        return "spells";
+        return "Pages/spells";
     }
 }

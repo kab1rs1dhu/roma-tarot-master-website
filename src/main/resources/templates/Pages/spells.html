@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spells - Roma Tarot Master</title>
+    <link rel="stylesheet" th:href="@{/css/homePage.css}">
+    <link rel="stylesheet" th:href="@{/css/spells.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Roma Tarot Master</h1>
+        </div>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/tarot-reading">Tarot Reading</a></li>
+                <li><a href="/karma-healing">Karma Healing</a></li>
+                <li><a href="/angel-healing">Angel Healing</a></li>
+                <li><a href="/reiki-healing">Reiki Healing</a></li>
+                <li><a href="/akashic-reading">Akashic Reading</a></li>
+                <li><a href="/spells" class="active">Spells</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="spells-hero">
+        <div class="spells-content">
+            <h1>Spells & Rituals</h1>
+            <div class="spells-description">
+                <h2>Harness Ancient Wisdom to Transform Your Reality</h2>
+                <p>Spells and rituals are sacred tools that help us focus our intentions and connect with the unseen energetic forces that shape our lives. These powerful practices have been used across cultures and traditions for thousands of years to manifest desired outcomes, provide protection, and create positive change.</p>
+                <p>As a practitioner with over 20 years of experience in various magical traditions, I craft personalized spells and rituals that honor both the ancient wisdom of these practices and your unique circumstances and goals. Each spell is created with careful attention to timing, correspondences, and ethical considerations.</p>
+                <p>Whether you're seeking to attract love, abundance, or healing, remove obstacles, or create meaningful transformation in your life, a properly crafted spell can serve as a powerful catalyst for the changes you wish to see.</p>
+            </div>
+            <div class="spells-benefits">
+                <h3>Benefits of Spell Work</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Focus your intentions with greater clarity and power</li>
+                    <li><i class="fas fa-check-circle"></i> Connect with natural and universal energies</li>
+                    <li><i class="fas fa-check-circle"></i> Create tangible change in alignment with your desires</li>
+                    <li><i class="fas fa-check-circle"></i> Release blocks that have been holding you back</li>
+                    <li><i class="fas fa-check-circle"></i> Establish energetic protection for yourself and loved ones</li>
+                    <li><i class="fas fa-check-circle"></i> Deepen your spiritual connection and personal practice</li>
+                </ul>
+            </div>
+            <div class="spells-cta">
+                <a href="#spell-types" class="btn">Explore Spell Categories</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="spell-types" id="spell-types">
+        <div class="container">
+            <h2>Spell Categories</h2>
+            <div class="types-grid">
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Love & Relationships</h3>
+                    <p>Spells to attract love, strengthen existing relationships, heal past wounds, and create harmony in your romantic life. These spells focus on creating authentic connections rather than manipulating others.</p>
+                    <a href="#booking" class="type-btn">Learn More</a>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Prosperity & Abundance</h3>
+                    <p>Rituals designed to remove financial blocks, attract new opportunities, increase your prosperity consciousness, and create a flow of abundance in all areas of your life.</p>
+                    <a href="#booking" class="type-btn">Learn More</a>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Protection & Banishing</h3>
+                    <p>Powerful spells to create energetic shields, cleanse spaces of negative energy, break hexes or curses, and establish boundaries against psychic attack or unwanted influences.</p>
+                    <a href="#booking" class="type-btn">Learn More</a>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-hands-medical"></i>
+                    </div>
+                    <h3>Healing & Wellness</h3>
+                    <p>Rituals that support physical healing, emotional release, mental clarity, and holistic wellbeing. These complement (never replace) conventional medical care for a mind-body-spirit approach to health.</p>
+                    <a href="#booking" class="type-btn">Learn More</a>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-door-open"></i>
+                    </div>
+                    <h3>Transformation & New Beginnings</h3>
+                    <p>Spells designed for major life transitions, releasing the old to welcome the new, finding your purpose, and stepping into a new chapter of your life with confidence and clarity.</p>
+                    <a href="#booking" class="type-btn">Learn More</a>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Home & Space Clearing</h3>
+                    <p>Rituals for cleansing, blessing, and protecting your home or workspace, creating sacred space, and establishing a harmonious energy flow in your environment.</p>
+                    <a href="#booking" class="type-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="spell-process">
+        <div class="container">
+            <h2>The Spell Creation Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Consultation</h3>
+                    <p>We begin with a detailed discussion about your situation and desired outcome. I'll ask questions to understand the nuances of your request and explain any ethical considerations.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Spell Design</h3>
+                    <p>Based on our consultation, I craft a customized spell using the most appropriate magical tradition, correspondences, and timing to align with your intention.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Gathering Materials</h3>
+                    <p>I carefully select and prepare all necessary materials for your spell, including herbs, candles, crystals, and other components specifically chosen for your situation.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Casting</h3>
+                    <p>The spell is cast during an auspicious time, with focused intention and precise ritual actions. For certain spells, I may invite your participation through guided visualization or simple actions to perform.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Integration</h3>
+                    <p>After the spell is cast, I'll provide guidance on how to support its manifestation, including any follow-up practices, signs to watch for, and ways to remain aligned with your intention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ethical-practice">
+        <div class="container">
+            <h2>My Ethical Approach to Spell Work</h2>
+            <div class="ethics-content">
+                <p class="ethics-intro">Magic is a powerful tool that carries responsibility. My practice is guided by these ethical principles:</p>
+                <div class="ethics-grid">
+                    <div class="ethics-item">
+                        <div class="ethics-icon"><i class="fas fa-balance-scale"></i></div>
+                        <h3>Harm None</h3>
+                        <p>I only cast spells that are designed to create positive outcomes without causing harm to others. Spell work should enhance life, not create suffering.</p>
+                    </div>
+                    <div class="ethics-item">
+                        <div class="ethics-icon"><i class="fas fa-hands"></i></div>
+                        <h3>Free Will</h3>
+                        <p>I respect the autonomy and free will of all beings. I do not perform love spells targeting specific individuals or any work that attempts to control others against their will.</p>
+                    </div>
+                    <div class="ethics-item">
+                        <div class="ethics-icon"><i class="fas fa-sync-alt"></i></div>
+                        <h3>Karmic Awareness</h3>
+                        <p>All magic operates within the law of cause and effect. I help clients understand the potential ripple effects of their magical intentions.</p>
+                    </div>
+                    <div class="ethics-item">
+                        <div class="ethics-icon"><i class="fas fa-user-shield"></i></div>
+                        <h3>Confidentiality</h3>
+                        <p>Your spell work and all information shared during our consultation remain completely confidential, creating a safe space for authentic expression.</p>
+                    </div>
+                </div>
+                <p class="ethics-note">There are certain types of spell work I will not perform, including those intended to harm others, manipulate free will, guarantee specific outcomes like lottery wins, or substitute for professional medical, legal, or financial advice.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="spells-testimonials">
+        <div class="container">
+            <h2>Client Experiences</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>After months of struggling to find a job in my field, I was feeling desperate. The abundance ritual we did created a noticeable shift in my energy. Within two weeks, I had three interviews and landed my dream position! The synchronicities that occurred were too specific to be coincidence.</p>
+                    <div class="client">
+                        <h4>Michael R.</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>The cord-cutting ritual helped me finally release an unhealthy relationship pattern I'd been stuck in for years. It was emotional but incredibly freeing. The guided visualization technique gave me a tool I still use when I feel old attachments trying to resurface.</p>
+                    <div class="client">
+                        <h4>Jennifer L.</h4>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>The house blessing completely transformed the energy in our new home. Before, it felt stagnant and unwelcoming despite our renovations. After the ritual, everyone who visits comments on how peaceful and warm it feels. We finally feel like we're truly home.</p>
+                    <div class="client">
+                        <h4>David & Sophia K.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="spells-booking" id="booking">
+        <div class="container">
+            <h2>Book Your Spell Work</h2>
+            <p class="booking-intro">Ready to harness the power of intentional magic? Choose from the options below to begin your journey of transformation.</p>
+            
+            <div class="booking-options">
+                <div class="booking-option">
+                    <h3>Single Spell Casting</h3>
+                    <p class="includes">Includes: Consultation, Custom Spell Design & Casting</p>
+                    <ul class="features">
+                        <li>Initial consultation (30 min)</li>
+                        <li>Customized spell creation</li>
+                        <li>All materials and components</li>
+                        <li>Casting during optimal timing</li>
+                        <li>Follow-up email with integration guidance</li>
+                        <li>One week of email support</li>
+                    </ul>
+                    <a href="#" class="btn booking-btn">Book Now</a>
+                </div>
+                <div class="booking-option featured">
+                    <div class="popular-tag">Most Popular</div>
+                    <h3>Comprehensive Ritual Package</h3>
+                    <p class="includes">Includes: In-depth Work with Multiple Components</p>
+                    <ul class="features">
+                        <li>Extended consultation (45 min)</li>
+                        <li>Multi-part ritual designed for deeper work</li>
+                        <li>Premium materials and components</li>
+                        <li>Casting with lunar/astrological alignment</li>
+                        <li>Personal ritual item to keep</li>
+                        <li>Detailed integration guidance document</li>
+                        <li>30 days of email support</li>
+                    </ul>
+                    <a href="#" class="btn booking-btn">Book Now</a>
+                </div>
+                <div class="booking-option">
+                    <h3>Seasonal Magic Package</h3>
+                    <p class="includes">Includes: Four Seasonal Rituals Over One Year</p>
+                    <ul class="features">
+                        <li>Four custom rituals aligned with seasons</li>
+                        <li>Quarterly consultations</li>
+                        <li>Progressive magical work</li>
+                        <li>All materials and components</li>
+                        <li>Seasonal integration practices</li>
+                        <li>Ongoing support between rituals</li>
+                        <li>15% savings compared to individual bookings</li>
+                    </ul>
+                    <a href="#" class="btn booking-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="spells-faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How quickly will I see results from a spell?</h3>
+                    <p>The timing of spell manifestation varies based on many factors, including the nature of your request, existing energetic conditions, and how aligned your actions are with your intention. Some spells show results within days, while others unfold more gradually over weeks or months. During our consultation, I can provide more specific timing guidance for your particular situation.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need to be present for the spell casting?</h3>
+                    <p>While your physical presence is not required for most spell work, your energetic participation is valuable. For distance work, I'll guide you on simple actions to take at the time of casting to strengthen our connection. For certain rituals, I may invite you to join virtually via video call if you wish to witness or participate more directly.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What if I need to keep the spell work private?</h3>
+                    <p>Confidentiality is a cornerstone of my practice. All aspects of our work together remain private. For clients who require additional discretion, I offer unmarked packages and neutral payment descriptions. Your comfort and safety are top priorities.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can you guarantee specific results?</h3>
+                    <p>Magic works within the laws of probability and possibility, not against them. While spells can significantly influence outcomes in your favor, ethical practitioners never guarantee specific results. What I can guarantee is that your spell will be crafted with skill, care, and focused intention to create the best possible conditions for your desired outcome.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is spell work compatible with my religion?</h3>
+                    <p>Many spiritual traditions incorporate forms of ritual or prayer that align with the principles of intentional magic. I work with clients from diverse religious backgrounds and can often adapt spell work to be compatible with your beliefs. During our consultation, we can discuss any concerns about compatibility with your spiritual practice.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What do I need to prepare before the consultation?</h3>
+                    <p>Come prepared to share your situation honestly and be clear about your desired outcome. If possible, gather any relevant dates, names (with permission), or details that might help me understand the full context. Most importantly, take some time for self-reflection about what you truly want to manifest and any potential consequences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Roma Tarot Master</h3>
+                <p>Your trusted guide on the path to spiritual awakening and healing.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/tarot-reading">Tarot Reading</a></li>
+                    <li><a href="/karma-healing">Karma Healing</a></li>
+                    <li><a href="/angel-healing">Angel Healing</a></li>
+                    <li><a href="/reiki-healing">Reiki Healing</a></li>
+                    <li><a href="/akashic-reading">Akashic Reading</a></li>
+                    <li><a href="/spells">Spells</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@romatarotmaster.com</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Roma Tarot Master. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script th:src="@{/js/homePage.js}"></script>
+</body>
+</html>
