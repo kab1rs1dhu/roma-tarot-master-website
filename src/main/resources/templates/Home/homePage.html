@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roma Tarot Master</title>
     <link rel="stylesheet" th:href="@{/css/homePage.css}">
+    <link rel="stylesheet" th:href="@{/css/instagram-testimonials.css}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -89,23 +90,110 @@
         </div>
     </section>
 
-    <section class="testimonials">
+<!-- Simple Testimonial Carousel Section -->
+<section class="testimonial-carousel">
+    <div class="container">
         <h2>Client Testimonials</h2>
-        <div class="testimonial-container">
-            <div class="testimonial">
-                <p>"The tarot reading I received was incredibly accurate and helped me make an important life decision. Highly recommended!"</p>
-                <h4>Sarah K.</h4>
+        
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <!-- Testimonial Slide 1 -->
+                <div class="carousel-slide">
+                    <div class="testimonial-image">
+                        <img src="/images/testimonials/testimonial1.png" alt="Client Testimonial" onerror="this.src='/images/testimonials/placeholder.jpg'">
+                    </div>
+                </div>
+                
+                <!-- Testimonial Slide 2 -->
+                <div class="carousel-slide">
+                    <div class="testimonial-image">
+                        <img src="/images/testimonials/testimonial2.png" alt="Client Testimonial" onerror="this.src='/images/testimonials/placeholder.jpg'">
+                    </div>
+                </div>
+                
+                <!-- Testimonial Slide 3 -->
+                <div class="carousel-slide">
+                    <div class="testimonial-image">
+                        <img src="/images/testimonials/testimonial3.png" alt="Client Testimonial" onerror="this.src='/images/testimonials/placeholder.jpg'">
+                    </div>
+                </div>
+                
+                <!-- Testimonial Slide 4 -->
+                <div class="carousel-slide">
+                    <div class="testimonial-image">
+                        <img src="/images/testimonials/testimonial4.png" alt="Client Testimonial" onerror="this.src='/images/testimonials/placeholder.jpg'">
+                    </div>
+                </div>
+                
+                <!-- Testimonial Slide 5 -->
+                <div class="carousel-slide">
+                    <div class="testimonial-image">
+                        <img src="/images/testimonials/testimonial5.png" alt="Client Testimonial" onerror="this.src='/images/testimonials/placeholder.jpg'">
+                    </div>
+                </div>
+                
+                <!-- Testimonial Slide 6 -->
+                <div class="carousel-slide">
+                    <div class="testimonial-image">
+                        <img src="/images/testimonials/testimonial6.png" alt="Client Testimonial" onerror="this.src='/images/testimonials/placeholder.jpg'">
+                    </div>
+                </div>
+                
+                <!-- Testimonial Slide 7 -->
+                <div class="carousel-slide">
+                    <div class="testimonial-image">
+                        <img src="/images/testimonials/testimonial7.png" alt="Client Testimonial" onerror="this.src='/images/testimonials/placeholder.jpg'">
+                    </div>
+                </div>
+                
+                <!-- Testimonial Slide 8 -->
+                <div class="carousel-slide">
+                    <div class="testimonial-image">
+                        <img src="/images/testimonials/testimonial8.png" alt="Client Testimonial" onerror="this.src='/images/testimonials/placeholder.jpg'">
+                    </div>
+                </div>
+                
+                <!-- Testimonial Slide 9 -->
+                <div class="carousel-slide">
+                    <div class="testimonial-image">
+                        <img src="/images/testimonials/testimonial9.png" alt="Client Testimonial" onerror="this.src='/images/testimonials/placeholder.jpg'">
+                    </div>
+                </div>
+                
+                <!-- Testimonial Slide 10 -->
+                <div class="carousel-slide">
+                    <div class="testimonial-image">
+                        <img src="/images/testimonials/testimonial10.png" alt="Client Testimonial" onerror="this.src='/images/testimonials/placeholder.jpg'">
+                    </div>
+                </div>
             </div>
-            <div class="testimonial">
-                <p>"After just one Reiki healing session, I felt a significant improvement in my energy levels and overall sense of well-being."</p>
-                <h4>Michael T.</h4>
+            
+            <!-- Carousel Controls -->
+            <div class="carousel-controls">
+                <button class="carousel-control carousel-prev" aria-label="Previous testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-control carousel-next" aria-label="Next testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
-            <div class="testimonial">
-                <p>"The Akashic reading provided me with profound insights into my life purpose that I had never considered before."</p>
-                <h4>Jennifer L.</h4>
+            
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <div class="carousel-indicator active"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section class="cta">
         <div class="cta-content">
@@ -150,5 +238,6 @@
     </footer>
 
     <script th:src="@{/js/homePage.js}"></script>
+    <script th:src="@{/js/instagram-testimonials.js}"></script>
 </body>
 </html>
