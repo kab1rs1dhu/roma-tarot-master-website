@@ -93,6 +93,10 @@ function createBookingModal() {
                                 <label for="video-60">Video Call (1 hour)</label>
                             </div>
                             <div class="service-option">
+                                <input type="radio" id="audio-20" name="service" value="Custom video/audio chat">
+                                <label for="audio-20">Custom video/audio chat</label>
+                            </div>
+                            <div class="service-option">
                                 <input type="radio" id="other" name="service" value="Other Services">
                                 <label for="other">Other Services (Reiki, Chord Cutting, Spells, etc.)</label>
                             </div>
