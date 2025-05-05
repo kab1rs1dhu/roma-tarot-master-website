@@ -429,6 +429,12 @@ header {
     font-weight: bold;
 }
 
+.faq-item p {
+    color: #333; /* Dark gray/black text for better readability */
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
 /* Fix footer for fixed background */
 footer {
     background-color: rgba(0, 0, 0, 0.9);
